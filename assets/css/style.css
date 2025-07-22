@@ -1,0 +1,33 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+h2 {
+  font-weight: 700;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
